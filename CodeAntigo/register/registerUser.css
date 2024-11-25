@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Gotu&family=Kaushan+Script&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Gotu", sans-serif;
+}
+
+body {
+    background-color: #023047;
+}
+
+.imagens {
+    display: flex;
+    align-items: center;
+}
+
+.triangulo img{
+    position: absolute;
+    top: 0%;
+    width: 180px;
+    
+}
+
+.borda-triangulo img {
+    width: 360px;
+}
+
+.container {
+    width: 40%;
+    height: 60vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+    position: absolute;
+    top: 23%;
+    left: 29%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #ffb703;
+}
+
+.container h1 {
+    position: absolute;
+    top: 7%;
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.container p {
+    position: absolute;
+    top: 30%;
+    font-size: 20px;
+}
+
+.input-group {
+    margin-top: 80px;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.input-box label{
+    font-size: 10px;
+}
+
+.input-box input {
+    width: 400px;
+    border-radius: 5px;
+    border-color: #02304700;
+}
+
+.register-button button{
+    width: 20%;
+    height: 5vh;
+    margin-top: 10px;
+    position: absolute;
+    left:39%;
+    border-radius: 10px;
+    border-color: #02304700;
+    cursor: pointer;
+}
+
+.img-canto {
+    position: absolute;
+    right: 0%;
+    top: 50%;
+}
+
+.img-canto img {
+    width: 180px;
+}
+
+@media (max-width: 1320px){
+   .triangulo, .borda-triangulo, .img-canto {
+    display: none;
+   }
+   .container {
+    width: 60%;
+    height: 80%;
+    position: absolute;
+    top: 15%;
+    left: 21%;
+   }
+}
+
+@media (max-width: 850px){
+    .container {
+     width: 60%;
+     height: 80%;
+     position: absolute;
+     left: 21%;
+    }
+    .container h1 {
+        font-size: 65px;
+    }
+    .container p {
+        position: absolute;
+        top: 25%;
+        font-size: 20px;
+    }
+    .input-box input {
+        width: 300px;
+    }
+ }
+ 
+ @media (max-width: 650px){
+    .container {
+     width: 60%;
+     height: 80%;
+     position: absolute;
+     left: 21%;
+    }
+    .container h1 {
+        font-size: 60px;
+    }
+    .container p {
+        position: absolute;
+        top: 25%;
+        font-size: 20px;
+    }
+    .input-box input {
+        width: 280px;
+    }
+    .register-button button{
+        width: 23%;
+        height: 6vh;
+        position: absolute;
+        top: 75%;
+    }
+ }
+
+ @media (max-width: 500px){
+    .container {
+     width: 80%;
+     height: 60%;
+     position: absolute;
+     left: 10%;
+    }
+    .container h1 {
+        font-size: 45px;
+    }
+    .input-box input {
+        width: 250px;
+    }
+    .register-button button{
+        width: 25%;
+        height: 5vh;
+    }
+    .container p {
+        position: absolute;
+        top: 25%;
+        font-size: 20px;
+    }
+    .register-button button{
+        width: 25%;
+        height: 5vh;
+        position: absolute;
+        top: 80%;
+    }
+    .register-button a {
+        font-size: 12px;
+    }
+ }
+
+

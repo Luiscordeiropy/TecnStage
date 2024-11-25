@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Gotu", sans-serif;
+}
+html, body {
+    height: 100%;
+    margin:  0;
+}
+
+main {
+
+    min-height: 100vh;
+    background-color: #000000;
+    flex: 1; 
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+
+.linha {
+    display: flex;
+    width: 15px;
+    padding-left: 20px;
+    position: absolute;
+    top: 10%; 
+}
+
+.text-container {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    color: white;
+    transform: translate(-50%, -43%);  
+    font-size: 36px;
+    text-align: justify;
+}
+
+
+.juntas {
+    display: flex;
+    gap: 10px;
+}
+
+.diferente {
+    color: #FFB703;
+}
+.diferente, .estranho {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.text-rest {
+    font-size: 28px;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+
+.paragrafo {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #A5A5A5;
+    max-width: 80%;
+}
+
+.octogono {
+    width: 25%;
+    position: absolute;
+    top: 50%; 
+    right: 0%; 
+    transform: translateY(-50%);
+}
+
+

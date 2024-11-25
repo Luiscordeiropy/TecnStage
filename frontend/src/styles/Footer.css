@@ -1,0 +1,51 @@
+/* src/styles/Footer.css */
+
+
+footer {
+    background-color: #023047;
+    color: #ffffff;
+    padding: 0px;
+    text-shadow: 2px 2px 2px #151316;
+    
+}
+
+#magnata {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-shadow: 2px 2px 2px #151316;
+    margin: 0 auto;
+    width: 80%;
+}
+
+#magnata ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#magnata ul li {
+    margin-bottom: 20px;
+}
+
+#magnata ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer-logo img {
+    width: 100px;
+    height: auto;
+    margin-right: -60px;
+}
+
+.rodape {
+    background-color: #031c28;
+    text-align: center;
+}

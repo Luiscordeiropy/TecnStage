@@ -1,0 +1,239 @@
+@font-face {
+    font-family: 'Gotu';
+    src: url(Gotu-Regular.ttf);
+    font-weight: normal;
+}
+* {
+    font-family: "Gotu";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100%; 
+    background-color: #023047; 
+}
+.ball1{
+    height: 150px;
+    width:150px;
+    border-radius: 50%;
+    background-color: #FFB703;
+    position: absolute;
+    top: 170px;
+    left: 145px;
+}
+.ball2{
+    height: 110px;
+    width:110px;
+    border-radius: 50%;
+    background-color: #023047;
+    position: absolute;
+    top: 190px;
+    left: 165px;
+}
+.ball3{
+    height: 250px;
+    width:250px;
+    border-radius: 50%;
+    background-color: #FFB703;
+    position: absolute;
+    top: 10px;
+    left:200px;
+}
+.ball4{
+    height: 190px;
+    width:190px;
+    border-radius: 50%;
+    background-color: #023047;
+    position: absolute;
+    top: 39px;
+    left: 230px;
+}
+.triangulo {
+    width: 0;
+    height: 0;
+    border-left: 80px solid transparent; 
+    border-right: 80px solid transparent; 
+    border-bottom: 130px solid #FFB703;  
+    position: absolute;
+    margin-left: 1100px;
+    transform: rotate(70deg);
+    top: 440px;
+}
+.triangulo2 {
+    width: 0;
+    height: 0;
+    border-left: 60px solid transparent;  
+    border-right: 50px solid transparent; 
+    border-bottom: 100px solid #023047;  
+    position: absolute;
+    margin-left: 1091px;
+    transform: rotate(-51deg);
+    top: 451px;
+}
+.triangulo3 {
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;  
+    border-right: 30px solid transparent; 
+    border-bottom: 50px solid #FFB703;  
+    position: absolute;
+    margin-left: 1203px;
+    transform: rotate(30deg);
+    top: 380px;
+}
+.triangulo4 {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;  
+    border-right: 18px solid transparent; 
+    border-bottom: 30px solid #023047;  
+    position: absolute;
+    margin-left: 1217px;
+    transform: rotate(32deg);
+    top: 393px;
+}
+.board{
+  position: absolute;
+  background-color: #ffff; 
+  width: 44%;
+  height: 64%;
+  margin-top: -90px;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  border-radius: 5px;
+}
+.metade{
+    position: absolute;
+    background-color: #FFB703;
+    width: 365px;
+    height: 100%;
+    top: 0px;
+    left: 39%;
+    border-radius: 5px;
+}
+.lanpada{
+    display: flex;
+    width: 490px;
+    height: 410px;
+    margin-top: 3px;
+    margin-left: 0px;
+    justify-content: right;
+}
+.login{
+    position: absolute;
+    font-size: 80px;
+    left: 55px;
+    top: 20px;
+}
+.user{
+    position: absolute;
+    left: 150px;
+    top: 120px;
+}
+.email{
+    position: absolute;
+    left: 20px;
+    top: 175px;
+    font-size: 10px;
+}
+.barra{
+    position: absolute;
+    padding: 0;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    width: 320px;
+    height: 25px;
+    top: 190px;
+    left: 20px;
+}
+.senha{
+    position: absolute;
+    left: 20px;
+    top: 230px;
+    font-size: 10px;
+}
+.barra2{
+    position: absolute;
+    padding: 0;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    width: 320px;
+    height: 25px;
+    top: 245px;
+    left: 20px;
+}
+.checkbox-container{
+    position: absolute;
+    left: 25px;
+    top: 270px;
+}
+.manter{
+    position: absolute;
+    left: 40px;
+    top: 275px;
+    font-size: 10px;
+}
+.esqueceu{
+    position: absolute;
+    left:135px;
+    top: 300px;
+    font-size: 10px;
+}
+.line{
+    position: absolute;
+    width: 90px;
+    height: 1px;
+    top: 313px;
+    left: 135px;
+    background-color: black;
+}
+.nav-button {
+    position: absolute;
+    top: 320px;
+    left: 120px;
+    background-color: #ffffff;
+    width:120px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+.nav-button a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.pergunta{
+    position: absolute;
+    left:20px;
+    top: 395px;
+    font-size: 10px;
+}
+.line2{
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    top: 407px;
+    left: 20px;
+    background-color: black;
+}
+.button {
+    position: absolute;
+    top: 390px;
+    left: 130px;
+    background-color: #FF9603;
+    width: 100px;
+    height: 20px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+.button a{
+    text-decoration: none;
+    color: black;
+    font-family: "Gotu";
+    font-size: 10px;
+    
+    
+}
