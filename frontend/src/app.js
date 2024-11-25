@@ -4,7 +4,7 @@ import HomePage from './pages/HomePage'; // Importando a página Home
 const App = () => {
   return (
     <div>
-      <HomePage /> {/* Exibindo a página principal */}
+      <HomePage /> {/* Exibindo a página principal  */}
     </div>
   );
 };
