@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Gotu&family=Kaushan+Script&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Gotu", sans-serif;
+}
+
+body{
+    height: 80vh;
+    background-color: #151316;
+}
+
+.conteiner-gerais {
+    padding: 60px;
+    display: grid;
+    gap: 10px;
+}
+
+.conteiner-gerais a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.conteiner-gerais img {
+    vertical-align: middle;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.perfil, .cadeado {
+    padding: 3px;
+}
+
+.conteiner-config {
+    background-color: #023046;
+    width: 60%;
+    height: 90vh;
+    position: absolute;
+    top: 13%;
+    left: 22%;
+    border-radius: 20px;
+    color: #ffffff;
+}
+
+.gerais, .usuario, .privacidade {
+    padding: 35px 50px 100px 50px;
+}
+
+.gerais img {
+    vertical-align: middle;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.gerais p {
+    padding: 20px 0px 0px 20px;
+}
+
+.usuario img {
+    vertical-align: middle;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.usuario p {
+    padding: 30px 0px 0px 37px;
+}
+
+.conteiner-box {
+    background-color: #219ebc;
+    width: 90px;
+    position: absolute;
+    top: 27%;
+    left: 35%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.box {
+    flex: 1;
+    text-align: center;
+}
+
+.box2 {
+    background-color: #151316;
+    width: 30px;
+}
+
+.conteiner-box img {
+    padding-left: 10px;
+
+}
+
+@media (max-width: 1320px) {
+    .conteiner-box {
+        position: absolute;
+        top: 24.5%;
+        left: 40%;
+        }
+}
+
+@media (max-width: 1024px) {
+   .conteiner-gerais{
+    display: flex;
+    padding-left: 20px;
+   }
+   .conteiner-config {
+    width: 60%;
+    height: 80%;
+   }
+   .conteiner-box {
+    position: absolute;
+    top: 24.5%;
+    left: 47%;
+    }
+}
+
+@media (max-width: 730px) {
+    .conteiner-box {
+        position: absolute;
+        top: 24.5%;
+        left: 55%;
+        }
+}
+
+@media (max-width: 550px) {
+    .conteiner-box {
+        position: absolute;
+        top: 30%;
+        left: 45%;
+        }
+}
+
+@media (max-width: 460px) {
+    .conteiner-config {
+        height: 78vh;
+        position: absolute;
+        top: 20%;
+    }
+    .conteiner-box {
+        position: absolute;
+        top: 36%;
+        left: 53%;
+        }
+    
+}
+
+
+
+
+
+
+
+

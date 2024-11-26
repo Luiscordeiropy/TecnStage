@@ -1,0 +1,331 @@
+@font-face {
+    font-family: 'Gotu';
+    src: url(Gotu-Regular.ttf);
+    font-weight: normal;
+}
+* {
+    font-family: "Gotu";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100%; 
+    background-color: #023047; 
+}
+.square{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 300px;
+    left: 120px;
+    background-color: #FFB703;
+    transform: rotate(20deg);
+}
+.square2{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 310px;
+    left: 130px;
+    background-color: #023047;
+    transform: rotate(20deg);
+}
+.square3{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 300px;
+    left: 120px;
+    background-color: #FFB703;
+    transform: rotate(64deg);
+}
+.square4{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 310px;
+    left: 130px;
+    background-color: #023047;
+    transform: rotate(64deg);
+}
+.square5{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    top: 440px;
+    left: 230px;
+    background-color: #FFB703;
+    transform: rotate(20deg);
+}
+.square6{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 455px;
+    left: 245px;
+    background-color: #023047;
+    transform: rotate(20deg);
+}
+.square7{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    top: 440px;
+    left: 230px;
+    background-color: #FFB703;
+    transform: rotate(64deg);
+}
+.square8{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 455px;
+    left: 245px;
+    background-color: #023047;
+    transform: rotate(64deg);
+}
+.square9{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    top: 50px;
+    left: 1090px;
+    background-color: #FFB703;
+    transform: rotate(50deg);
+}
+.square10{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 65px;
+    left: 1105px;
+    background-color: #023047;
+    transform: rotate(50deg);
+}.square11{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 160px;
+    left: 1090px;
+    background-color: #FFB703;
+    transform: rotate(50deg);
+}
+.square12{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 175px;
+    left: 1105px;
+    background-color: #023047;
+    transform: rotate(50deg);
+}
+.square13{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top:320px;
+    left: 1140px;
+    background-color: #FFB703;
+    transform: rotate(50deg);
+}
+.square14{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 330px;
+    left: 1150px;
+    background-color: #023047;
+    transform: rotate(50deg);
+}
+.square15{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 350px;
+    left: 1220px;
+    background-color: #FFB703;
+    transform: rotate(50deg);
+}
+.square16{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 360px;
+    left: 1230px;
+    background-color:#023047;
+    transform: rotate(50deg);
+}
+.board{
+    position: absolute;
+    background-color: #ffff; 
+    width: 44%;
+    height: 64%;
+    margin-top: -90px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    border-radius: 5px;
+  }
+  .maleta{
+    position: absolute;
+    background-color: #FFB703;
+    width: 215px;
+    height: 130px;
+    top: 160px;
+    left: 350px;
+    transform: rotate(20deg);
+  }
+  .alca{
+    position: absolute;
+    background-color: #FFB703;
+    width: 120px;
+    height: 50px;
+    top: 135px;
+    left: 420px;
+    transform: rotate(20deg);
+  }
+  .alca2{
+    position: absolute;
+    background-color: #ffff;
+    width: 80px;
+    height: 20px;
+    top: 144px;
+    left: 443px;
+    transform: rotate(20deg);
+  }
+  .metade{
+    position: absolute;
+    background-color: #FFB703;
+    width: 365px;
+    height: 419px;
+    top: 0px;
+    left: 0px;
+    border-radius: 5px;
+  }
+  .login{
+    position: absolute;
+    font-size: 80px;
+    left: 55px;
+    top: 0px;
+}
+.user{
+    position: absolute;
+    left: 150px;
+    top: 95px;
+}
+.email{
+    position: absolute;
+    left: 20px;
+    top: 155px;
+    font-size: 10px;
+}
+.barra{
+    position: absolute;
+    padding: 0;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    width: 320px;
+    height: 25px;
+    top: 170px;
+    left: 20px;
+}
+.senha{
+    position: absolute;
+    left: 20px;
+    top: 210px;
+    font-size: 10px;
+}
+.barra2{
+    position: absolute;
+    padding: 0;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    width: 320px;
+    height: 25px;
+    top: 225px;
+    left: 20px;
+}
+.checkbox-container{
+    position: absolute;
+    left: 25px;
+    top: 250px;
+}
+.manter{
+    position: absolute;
+    left: 40px;
+    top: 255px;
+    font-size: 10px;
+}
+.esqueceu{
+    position: absolute;
+    left:135px;
+    top: 300px;
+    font-size: 10px;
+}
+.line{
+    position: absolute;
+    width: 90px;
+    height: 1px;
+    top: 313px;
+    left: 135px;
+    background-color: black;
+}
+.nav-button {
+    position: absolute;
+    top: 320px;
+    left: 120px;
+    background-color: #ffffff;
+    width:120px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+.nav-button a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.pergunta{
+    position: absolute;
+    left:20px;
+    top: 395px;
+    font-size: 10px;
+}
+.line2{
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    top: 407px;
+    left: 20px;
+    background-color: black;
+}
+.button {
+    position: absolute;
+    top: 390px;
+    left: 130px;
+    background-color: #FF9603;
+    width: 100px;
+    height: 20px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+.button a{
+    text-decoration: none;
+    color: black;
+    font-family: "Gotu";
+    font-size: 10px;
+}
+@media (max-width: 1024px){
+    .board{
+        display: none;
+    }
+    .metade{
+        position: absolute;
+        width: 60%;
+        height: 80%;
+        top: 15%;
+        left: 21%;
+    }
+}

@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'Gotu';
+    src: url(Gotu-Regular.ttf);
+    font-weight: normal;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #161315;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family:"Gotu";
+    
+}
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: auto;
+    height: 100px;
+}
+.nav-container-left {
+    display: flex;
+    align-items: center;
+}
+.Logo {
+    width: 250px;
+    margin-top: 90px;
+    margin-left: 10px;
+}
+.fundo{
+    background-color: #023047;
+    width: 570px;
+    height: 574px;
+    position: absolute;
+    right: 380px;
+    top: 80px;
+    border-radius: 10px;
+}
+.circulo {
+    width: 150px;        
+    height: 150px;       
+    background-color: #219ebc;  
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    top: 40px;
+}
+.tronco{
+    width: 120px;
+    height: 70px;
+    background-color: #151315;
+    border-radius: 50%;
+    position: absolute;
+    left: 34px;
+    top: 120px;
+}
+.head{
+    width: 60px;
+    height: 60px;
+    background-color: #151315;
+    border-radius: 50%;
+    position: absolute;
+    left: 64px;
+    top: 55px;
+}
+.gear{
+    display: flex;
+    justify-content: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.name{
+    position: absolute;
+    right: 110px;
+    top: 220px;
+    color: #ffff;
+    font-size: 25px;
+    text-shadow: 2px 2px 2px black;
+}
+.line{
+    width: 220px;
+    height: 1px;
+    color: #fff;
+    background-color: #ffff;
+    position: absolute;
+    right: 170px;
+    top: 260px;
+}
+.ball1{
+    width: 8px;
+    height:8px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: 240px;
+    top: 70px;
+}
+.ball2{
+    width: 8px;
+    height:8px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: 260px;
+    top: 117px;
+}
+.ball3{
+    width: 8px;
+    height:8px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: 280px;
+    top: 163px;
+}
+.curso{
+    position:absolute ;
+    left: 66px;
+    top: 300px;
+    color: #fff;
+    font-size: 25px;
+    text-shadow: 2px 2px 2px black;
+}
