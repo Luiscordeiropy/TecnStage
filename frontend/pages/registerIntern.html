@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="register/registerIntern.css">
-    <title>Register estagiario</title>
+    <title>Cadastro de Estagiário</title>
+    <link rel="stylesheet" href="../styles/registerIntern.css">
 </head>
 <body>
     <div class="imagens">
@@ -14,31 +14,35 @@
         <h1>Cadastrar</h1>
         <p>Estagiário</p>
         <div>
-            <form action="#">
+            <form id="register-intern-form">
                 <div class="input-group">
                     <div class="input-box">
-                        <label for="cursor">Curso:</label>
-                        <input type="cursor">
+                        <label for="name">Nome:</label>
+                        <input id="name" type="text" placeholder="Digite o seu nome" required>
                     </div>
                     <div class="input-box">
-                        <label for="e-mail">CPF:</label>
-                        <input id="e-mail" type="email" placeholder="000.000.000-00">
+                        <label for="course">Curso:</label>
+                        <input id="course" type="text" placeholder="Digite o seu curso" required>
                     </div>
                     <div class="input-box">
-                        <label for="e-mail">E-mail:</label>
-                        <input id="e-mail" type="email" placeholder="Digite um e-mail">
+                        <label for="cpf">CPF:</label>
+                        <input id="cpf" type="text" placeholder="000.000.000-00" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="email">E-mail:</label>
+                        <input id="email" type="email" placeholder="Digite um e-mail" required>
                     </div>
                     <div class="input-box">
                         <label for="password">Senha:</label>
-                        <input id="password" type="password" placeholder="Digite uma senha">
+                        <input id="password" type="password" placeholder="Digite uma senha" required>
                     </div>
                     <div class="input-box">
-                        <label for="password-confirm">Confirmar:</label>
-                        <input id="password-confirm" type="password" placeholder="Confirme sua senha">
+                        <label for="password-confirm">Confirmar senha:</label>
+                        <input id="password-confirm" type="password" placeholder="Confirme sua senha" required>
                     </div>
                 </div>
                 <div class="register-button">
-                    <button onclick="window.open('http://127.0.0.1:3000/Tudo/home.html')">Cadastrar</button>
+                    <button type="submit">Cadastrar</button>
                 </div>
             </form>
         </div>
@@ -47,5 +51,7 @@
         <div class="elipse"><img src="img/Subtract (2)3.png" alt="elipse"></div>
         <div class="elipse2"><img src="img/Subtract (3)3.png" alt=""></div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../assets/js/registerIntern.js"></script>
 </body>
 </html>

@@ -30,4 +30,15 @@ export class InternService {
       },
     });
   }
+
+  async findAllIntern() {
+    return this.prisma.intern.findMany({
+    })
+  }
+
+  async deleteIntern(id: string) {
+    return this.prisma.intern.delete({
+      where: { id }
+    })
+  }
 }

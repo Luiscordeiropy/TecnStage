@@ -8,36 +8,39 @@
 </head>
 <body>
     <div class="Fundo">
-       <div class="ball1"></div>
-       <div class="ball2"></div>
-       <div class="ball3"></div>
-       <div class="ball4"></div>
-       <div class="triangulo"></div>
-       <div class="triangulo2"></div>
-       <div class="triangulo3"></div>
-       <div class="triangulo4"></div>
+        <div class="ball1"></div>
+        <div class="ball2"></div>
+        <div class="ball3"></div>
+        <div class="ball4"></div>
+        <div class="triangulo"></div>
+        <div class="triangulo2"></div>
+        <div class="triangulo3"></div>
+        <div class="triangulo4"></div>
     </div>
     <div class="board">
-        <img  class="lanpada" src="lanpada.jpg" alt="lanpada">
+        <img class="lampada" src="../assets/img/lampada.jpg" alt="lampada">
         <div class="metade">
             <div class="login">LOGIN</div>
             <div class="user">Usuário</div>
-            <div class="email">Email:</div>
-            <input class="barra" type="text">
-            <div class="senha">Senha:</div>
-            <input class="barra2" type="text">
-            <label class="checkbox-container">
-                <input type="checkbox">
-              </label>
-              <div class="manter">Mater Login</div>
-              <div class="esqueceu">Esqueceu a senha?</div>
-              <div class="line"></div>
-              <button  class="nav-button" onclick="window.open('http://127.0.0.1:3000/Tudo/home.html')">LOGIN</button>
-              <div class="pergunta"> Não tem uma conta?</div>
-              <div class="line2"></div>
-               <a href="registerUser.html" class="button">CADASTRE-SE</a>
+            <form id="login-form">
+                <div class="email">Email:</div>
+                <input class="barra" id="email" type="text" required>
+                <div class="senha">Senha:</div>
+                <input class="barra2" id="password" type="password" required>
+                <label class="checkbox-container">
+                    <input type="checkbox">
+                </label>
+                <div class="manter">Manter Login?</div>
+                <div class="esqueceu">Esqueceu a senha?</div>
+                <div class="line"></div>
+                <button class="nav-button" type="submit">LOGIN</button>
+            </form>
+            <div class="pergunta"> Não tem uma conta?</div>
+            <div class="line2"></div>
+            <a href="registerUser.html" class="button">CADASTRE-SE</a>
         </div>
     </div>
-    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../assets/js/loginUser.js"></script>
 </body>
 </html>

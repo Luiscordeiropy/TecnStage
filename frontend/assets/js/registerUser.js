@@ -1,12 +1,11 @@
 document.getElementById('register-form').addEventListener('submit', async function(event) {
-    event.preventDefault(); // Evita que o formulário seja enviado de forma tradicional
+    event.preventDefault(); 
 
     const name = document.getElementById('name').value;
     const email = document.getElementById('email').value;
     const password = document.getElementById('password').value;
     const passwordConfirm = document.getElementById('password-confirm').value;
 
-    // Verificação básica de senha
     if (password !== passwordConfirm) {
         alert('As senhas não coincidem');
         return;
@@ -18,10 +17,11 @@ document.getElementById('register-form').addEventListener('submit', async functi
             email,
             password,
         });
+        
 
         if (response.status === 201) {
             alert('Cadastro realizado com sucesso!');
-            window.location.href = 'http://127.0.0.1:5500/frontend/pages/vagas.html'; // Redireciona para a página home
+            window.location.href = 'http://127.0.0.1:5500/frontend/pages/home.html'; 
         }
     } catch (error) {
         console.error('Erro:', error);

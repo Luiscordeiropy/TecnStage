@@ -118,7 +118,7 @@ header {
     width: 50px;
 }
 
-.perfil a {
+.perfil {
     text-decoration: none;
     color: #ffffff;
     font-size: 14px;
@@ -294,6 +294,7 @@ footer {
     color: #ffffff;
     padding: 0px ;
     text-shadow: 2px 2px 2px #151316;
+    height: 200px;
 }
 .footer-container p {
     margin: 0;
@@ -306,6 +307,7 @@ footer {
     text-shadow: 2px 2px 2px #151316;
     margin: 0 auto;
     width: 80%;
+    padding-bottom: 30px;
 }
 #magnata ul {
     list-style-type: none;

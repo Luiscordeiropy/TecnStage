@@ -195,6 +195,7 @@ body {
   }
   .metade{
     position: absolute;
+    width: 100%;
     background-color: #FFB703;
     width: 365px;
     height: 419px;
@@ -310,6 +311,8 @@ body {
     height: 20px;
     cursor: pointer;
     border-radius: 7px;
+    font-size: small;
+    text-align: center;
 }
 .button a{
     text-decoration: none;

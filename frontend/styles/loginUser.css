@@ -109,13 +109,13 @@ body {
     width: 365px;
     height: 100%;
     top: 0px;
-    left: 39%;
+    left: 50%;
     border-radius: 5px;
 }
-.lanpada{
+.lampada{
     display: flex;
-    width: 490px;
-    height: 410px;
+    width: 400px;
+    height: 430px;
     margin-top: 3px;
     margin-left: 0px;
     justify-content: right;
@@ -228,6 +228,8 @@ body {
     height: 20px;
     cursor: pointer;
     border-radius: 7px;
+    font-size: small;
+    text-align: center;
 }
 .button a{
     text-decoration: none;

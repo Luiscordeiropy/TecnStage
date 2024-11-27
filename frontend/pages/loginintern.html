@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login estagiario </title>
-    <link rel="stylesheet" href="../styles/loginIntern.css">
+    <title>Login Estagiário</title>
+    <link rel="stylesheet" href="/frontend/styles/loginIntern.css">
 </head>
 <body>
     <div class="fundo">
@@ -32,24 +32,26 @@
 
         <div class="metade">
             <div class="login">LOGIN</div>
-            <div class="user">estagiario</div>
-            <div class="email">Email:</div>
-            <input class="barra" type="text">
-            <div class="senha">Senha:</div>
-            <input class="barra2" type="text">
-            <label class="checkbox-container">
-                <input type="checkbox">
-              </label>
-              <div class="manter">Mater Login</div>
-              <div class="esqueceu">Esqueceu a senha?</div>
-              <div class="line"></div>
-              <button  class="nav-button" onclick="window.open('http://127.0.0.1:3000/Tudo/home.html')">LOGIN</button>
-              <div class="pergunta"> Não tem uma conta?</div>
-              <div class="line2"></div>
-              <button class="button" onclick="window.open('http://127.0.0.1:3000/Tudo/registerIntern.html')">CADASTRE-SE</button>
+            <div class="user">Estagiário</div>
+            <form id="login-intern-form">
+                <div class="email">Email:</div>
+                <input class="barra" id="email" type="text" required>
+                <div class="senha">Senha:</div>
+                <input class="barra2" id="password" type="password" required>
+                <label class="checkbox-container">
+                    <input type="checkbox">
+                </label>
+                <div class="manter">Manter login?</div>
+                <div class="esqueceu">Esqueceu a senha?</div>
+                <div class="line"></div>
+                <button class="nav-button" type="submit">LOGIN</button>
+            </form>
+            <div class="pergunta"> Não tem uma conta?</div>
+            <div class="line2"></div>
+            <a href="registerIntern.html" class="button">CADASTRE-SE</a>
         </div>
     </div>
-    
-    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="/frontend/assets/js/loginIntern.js"></script>
 </body>
 </html>

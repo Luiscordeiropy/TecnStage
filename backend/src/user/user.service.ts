@@ -28,4 +28,15 @@ export class UserService {
       },
     });
   }
+
+  async findAllUsers() {
+    return this.prisma.user.findMany({
+    })
+  }
+
+  async deleteUser(id: string) {
+    return this.prisma.user.delete({
+      where: { id }
+    })
+  }
 }

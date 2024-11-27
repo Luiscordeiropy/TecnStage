@@ -15,7 +15,14 @@ export class AuthController {
     );
 
     if (user) {
-      return { access_token: this.authService.login(user) };
+      const token = this.authService.login(user)
+      return { 
+        user: {
+          name: user.name,
+          email: user.email,
+        },
+        token,
+       };
     } else {
       return { message: 'Invalid credentials' };
     }
