@@ -1,43 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="register/registerUser.css">
-    <title>Register User</title>
+    <title>Cadastro de Usuário</title>
+    <link rel="stylesheet" href="../styles/registerUser.css">
 </head>
 <body>
-    <div class="imagens">
-        <div class="triangulo"><img src="img/Subtract.png" alt="quadrado"></div>
-        <div class="borda-triangulo"><img src="img/Subtract (1).png" alt="quadrado-aberto"></div>
-    </div>
     <div class="container">
         <h1>Cadastrar</h1>
         <p>Usuário</p>
-        <div>
-            <form action="#">
-                <div class="input-group">
-                    <div class="input-box">
-                        <label for="e-mail">E-mail:</label>
-                        <input id="e-mail" type="email" placeholder="Digite um e-mail">
-                    </div>
-                    <div class="input-box">
-                        <label for="password">Senha:</label>
-                        <input id="password" type="password" placeholder="Digite uma senha">
-                    </div>
-                    <div class="input-box">
-                        <label for="password-confirm">Confirmar senha:</label>
-                        <input id="password-confirm" type="password" placeholder="Confirme sua senha">
-                    </div>
+        <form id="register-form">
+            <div class="input-group">
+                <div class="input-box">
+                    <label for="name">Nome:</label>
+                    <input id="name" type="text" placeholder="Digite o seu nome" required>
                 </div>
-                <div class="register-button">
-                    <button onclick="window.open('http://127.0.0.1:3000/Tudo/home.html')">Cadastrar</button>
+                <div class="input-box">
+                    <label for="email">E-mail:</label>
+                    <input id="email" type="email" placeholder="Digite um e-mail" required>
                 </div>
-            </form>
-        </div>
+                <div class="input-box">
+                    <label for="password">Senha:</label>
+                    <input id="password" type="password" placeholder="Digite uma senha" required>
+                </div>
+                <div class="input-box">
+                    <label for="password-confirm">Confirmar senha:</label>
+                    <input id="password-confirm" type="password" placeholder="Confirme sua senha" required>
+                </div>
+            </div>
+            <div class="register-button">
+                <button type="submit">Cadastrar</button>
+            </div>
+        </form>
     </div>
-    <div class="img-canto">
-        <img src="img/Subtract (2).png" alt="">
-    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../assets/js/registerUser.js"></script>
 </body>
 </html>

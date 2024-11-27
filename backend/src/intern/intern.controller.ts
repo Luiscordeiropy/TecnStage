@@ -10,4 +10,5 @@ export class InternController {
   async register(@Body() registerDto: InternRegisterDto) {
     return this.internService.newIntern(registerDto);
   }
+
 }
