@@ -17,7 +17,19 @@ document.getElementById('register-form').addEventListener('submit', async functi
             email,
             password,
         });
-        
+
+        console.log('Resposta do servidor:', response);
+
+        if (response.data.user) {
+            localStorage.clear()
+            const user = response.data.user;
+            const token = response.data.token;
+
+            localStorage.setItem('user', JSON.stringify(user));
+            localStorage.setItem('token', token);
+            
+            window.location.href = 'http://127.0.0.1:5500/frontend/pages/home.html';  
+        }
 
         if (response.status === 201) {
             alert('Cadastro realizado com sucesso!');
