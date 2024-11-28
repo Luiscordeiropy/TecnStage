@@ -24,11 +24,11 @@ body {
 
 .conteiner {
     width: 40%;
-    height: 72vh;
+    height: 90vh;
     display: flex;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
     position: absolute;
-    top: 17%;
+    top: 5%;
     left: 29%;
     display: flex;
     flex-direction: column;

@@ -4,8 +4,11 @@ export interface Intern {
     email: string; 
     cpf: string;
     password: string;
-    curso: string; 
+    curso: Curso
     createdAt: Date; 
     updatedAt?: Date;
   }
   
+  export interface Curso {
+    curso: string;
+  }

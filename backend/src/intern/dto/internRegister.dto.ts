@@ -1,3 +1,4 @@
+import { Type } from 'class-transformer';
 import { IsEmail, IsNotEmpty, MinLength } from 'class-validator';
 
 export class InternRegisterDto {
@@ -17,4 +18,7 @@ export class InternRegisterDto {
 
   @IsNotEmpty()
   curso: string;
+
+
+  
 }
